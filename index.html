@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+  <meta charset="UTF-8">
+  <title>Angular 1 Hello!</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css">
+  <!--
+  each component css... add here :)
+  -->
+  <link rel="stylesheet" type="text/css" href="app/Dashboard/Dashboard.css">
+  <link rel="stylesheet" type="text/css" href="app/Product/Product.css">
+</head>
+<body>
+  <h1>Angular Boilerplate</h1>
+
+  <!-- Main Content -->
+  <ng-view></ng-view>
+
+  <script src="bower_components/angular/angular.min.js"></script>
+	<script src="bower_components/angular-route/angular-route.min.js"></script>
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="bower_components/angular-cookies/angular-cookies.min.js"></script>
+
+  <script src="app/main.js"></script>
+  <script src="app/Services/News.js"></script>
+  <script src="app/Services/Product.js"></script>
+  <script src="app/Dashboard/Dashboard.js"></script>
+  <script src="app/Product/Product.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "angular-1-toturial",
+  "version": "0.0.1",
+  "authors": [
+    "winwu <yiyingwu.1990@gmail.com>"
+  ],
+  "description": "",
+  "main": "app/main.js",
+  "keywords": [
+    "angularjs"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/winwu/Angular-1-Toturial-Boilerplate",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "~1.5.5",
+    "angular-cookies": "~1.5.0",
+    "angular-route": "~1.5.5",
+    "font-awesome": "~4.5.0",
+    "angular-sanitize": "^1.5.1",
+    "bootstrap": "~3.3.6",
+    "angular-smart-table": "^2.1.8"
+  }
+}
